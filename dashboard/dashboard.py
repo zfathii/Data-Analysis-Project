@@ -5,7 +5,7 @@ import matplotlib.image as mpimg
 import seaborn as sns
 import streamlit as st
 import urllib
-from func import DataAnalyzer, BrazilMapPlotter
+from function import DataAnalyzer, BrazilMapPlotter
 
 # Set seaborn style and Streamlit options
 sns.set(style='dark')
