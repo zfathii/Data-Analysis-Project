@@ -221,6 +221,9 @@ with tab1:
     plt.xticks(fontsize=12)
     st.pyplot(fig)
 
+    with st.expander("See Explanation"):
+        st.write('According to the graph, the geographical area with the highest number of customers appears to be concentrated in the southeastern region of Brazil. This area typically includes major cities such as São Paulo, Rio de Janeiro, Porto Alegre, and others, which are known for their significant populations and urban activity.')
+
 # Tab for Geolocation
 with tab2:
     map_plot.plot()
