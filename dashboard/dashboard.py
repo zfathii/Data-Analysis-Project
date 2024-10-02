@@ -42,7 +42,7 @@ with st.sidebar:
     with col1:
         st.write(' ')
     with col2:
-        st.image("https://raw.githubusercontent.com/mhdhfzz/data-analyst-dicoding/main/dashboard/logo.png", width=100)
+        st.image("https://raw.githubusercontent.com/mhdhfzz/bismillah/main/dashboard/logo.png", width=100)
     with col3:
         st.write(' ')
 
