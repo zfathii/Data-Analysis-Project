@@ -7,9 +7,8 @@ import streamlit as st
 import urllib
 from function import DataAnalyzer, BrazilMapPlotter
 
-# Set seaborn style and Streamlit options
+# Set seaborn style
 sns.set(style='dark')
-st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Load the main dataset
 datetime_cols = [
@@ -42,7 +41,7 @@ with st.sidebar:
     with col1:
         st.write(' ')
     with col2:
-        st.image("https://raw.githubusercontent.com/mhdhfzz/bismillah/main/dashboard/logo.png", width=100)
+        st.image("https://raw.githubusercontent.com/zfathii/bismillah/main/dashboard/laptop.png", width=100)
     with col3:
         st.write(' ')
 
