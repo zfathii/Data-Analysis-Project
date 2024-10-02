@@ -72,10 +72,12 @@ state, most_common_state = function.create_bystate_df()
 order_status, common_status = function.create_order_status()
 
 # Streamlit app title
-st.title("E-Commerce Public Data Analysis")
+st.title("E-Commerce Public Data Analysis for Dicoding Project")
 
 # Dashboard description
 st.write("**This is a dashboard for analyzing E-Commerce public data.**")
+st.write("**By Fathimah Zulfah.**")
+
 
 # Section for Daily Orders Delivered
 st.subheader("Daily Orders Delivered")
