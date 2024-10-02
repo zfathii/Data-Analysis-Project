@@ -222,14 +222,14 @@ with tab1:
     st.pyplot(fig)
 
     with st.expander("See Explanation"):
-        st.write('According to the graph, the geographical area with the highest number of customers appears to be concentrated in the southeastern region of Brazil. This area typically includes major cities such as São Paulo, Rio de Janeiro, Porto Alegre, and others, which are known for their significant populations and urban activity.')
+        st.write('Based on the generated graph, a higher concentration of customers is located in the southeast and southern regions. Additionally, a significant number of customers are found in major capital cities such as São Paulo, Rio de Janeiro, Porto Alegre, and others.')
 
 # Tab for Geolocation
 with tab2:
     map_plot.plot()
 
     with st.expander("See Explanation"):
-        st.write('According to the graph, the geographical area with the highest number of customers appears to be concentrated in the southeastern region of Brazil. This area typically includes major cities such as São Paulo, Rio de Janeiro, Porto Alegre, and others, which are known for their significant populations and urban activity.')
+        st.write('According the map provided, the geographical area with the highest number of customers appears to be concentrated in the southeastern region of Brazil. This area typically includes major cities such as São Paulo, Rio de Janeiro, Porto Alegre, and others, which are known for their significant populations and urban activity.')
 
 # Copyright notice
 st.caption('Copyright (C) Fathimah Zulfah 2024')
